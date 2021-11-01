@@ -1,6 +1,6 @@
 # :warning: Before reading this make sure to be in a proper editor that supports MD files. Otherwise pictures won't load properly. 
 
-![test](.\README_Images\test.PNG) 
+![test](./README_Images/test.PNG) 
 
 
 
@@ -173,15 +173,15 @@ Sector (click on it): select the first one to  select them all
 1. If nothing is entered in the secotr section either others or the previous selection will be taken again.
 
 2. On a wrong date an error will pop up when hitting safe
-   ![Fullscreen](.\README_Images\wrong format.PNG)
+   ![Fullscreen](./README_Images/wrong format.PNG)
 
 3. From the screenshot above we can also see that there is a dynamic error symbol that will show up if the format isn't right and if someone hit's safe nothing will happen. 
 
 4. If there has been no date entered an explicit error will show up.
 
-   ![Fullscreen](.\README_Images\empty.PNG)
+   ![Fullscreen](./README_Images/empty.PNG)
 
-5. If a date like `2005-2003` is provided the code will turn it in the right way and transform it into `2003-2005`![MaxBeforMin](.\README_Images\MaxBeforMin.PNG)
+5. If a date like `2005-2003` is provided the code will turn it in the right way and transform it into `2003-2005`![MaxBeforMin](./README_Images/MaxBeforMin.PNG)
 
 
 
@@ -189,13 +189,13 @@ Here we can see that the starting date is then at 1-2003 even-though 2003 is aft
 
 6. In case you want to know in the which column we currently are and the exact number of a bar you can hover over it.
 
-   ![balken](.\README_Images\balken.PNG)
+   ![balken](./README_Images/balken.PNG)
 
    
 
 7. When having a lot of different bars the corresponding colors can be found on the right side of the screen.
 
-   ![legendColors](.\README_Images\legendColors.PNG)
+   ![legendColors](./README_Images/legendColors.PNG)
 
 8. The lowest point of the graph starts from the minimum of all the values. This makes the chart have a bigger impact. It stops at the maximum on the top.
 
@@ -203,22 +203,22 @@ Here we can see that the starting date is then at 1-2003 even-though 2003 is aft
 
 * Having the window not in full screen. This is how it should look like in full-screen. Sadly I didn't managed to fit the CSS in a proper way to make work on all resolutions. My screen resolution is 1920x1080 but anything higher should also work.
 
-![Fullscreen](.\README_Images\Fullscreen.PNG)
+![Fullscreen](./README_Images/Fullscreen.PNG)
 
 
 
 * Taking a range that is too wide.
 
-![Fullscreen](.\README_Images\ToWide.PNG)
+![Fullscreen](./README_Images/ToWide.PNG)
 
 While it technically  works to have the minimum of 1995 to 2-2020 it's not recommanded to use it for readability purposes of the graph. The lables underneath will overlap and without overwritting some part of the API itself to show verticialy it couldn't have been done.
 
 * Taking to many sectors on a to small range
 
-![towide2](.\README_Images\towide2.PNG)
+![towide2](./README_Images/towide2.PNG)
 
 Similar as above it wil make the data nearly unreadable. While it is working it's not recommanded to use it
 
-![smallrangeRespected](.\README_Images\smallrangeRespected.PNG)
+![smallrangeRespected](./README_Images/smallrangeRespected.PNG)
 
 But as you can see here smaller ranges will make it work just fine.
