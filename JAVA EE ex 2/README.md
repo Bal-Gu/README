@@ -173,7 +173,7 @@ Sector (click on it): select the first one to  select them all
 1. If nothing is entered in the secotr section either others or the previous selection will be taken again.
 
 2. On a wrong date an error will pop up when hitting safe
-   ![Fullscreen](./README_Images/wrong format.PNG)
+   ![Fullscreen](./README_Images/wrong_format.PNG)
 
 3. From the screenshot above we can also see that there is a dynamic error symbol that will show up if the format isn't right and if someone hit's safe nothing will happen. 
 
