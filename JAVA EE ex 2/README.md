@@ -91,6 +91,22 @@ Sector (click on it): `Construction` (or anything else)
     Sector: Construction 
 ````
 
+#### Range selection
+
+Provide a Date: `2004-2005,2008-2009`
+
+Sector (click on it): `Industrie Specialized` (or anything else)
+
+````
+//Output
+    Starting date: 1-2008
+    Ending date: 4-2009
+    Sector: Industry Specialized
+````
+
+![2004-2005bis2008-2009](./README_Images/2004-2005bis2008-2009.PNG)
+
+Here two things are to note. The first one the range will always show from the last element of the list and also that we jump from 4-2005 to 1-2008 this proves that the range is working. The design has been decided to jump directly to the next date to make far away ranges readable on the charts.
 
 
 #### multiple selection
